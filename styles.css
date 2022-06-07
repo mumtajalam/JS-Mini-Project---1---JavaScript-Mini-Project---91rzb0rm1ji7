@@ -7,7 +7,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: lightgray;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,10 +46,13 @@ input[type="text"] {
 .btn {
   padding: 5px;
   font-weight: bold;
-  background-color: black;
+  background-color: gray;
   outline: none;
   font-size: 20px;
   color: white;
+}
+.btn:hover{
+  background-color: greenyellow;
 }
 #result {
   /* margin-bottom: 20px; */
